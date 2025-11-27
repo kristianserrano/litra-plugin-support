@@ -1,0 +1,53 @@
+name: Support Request
+description: Get help with using the Litra plugin
+title: "[Support]: "
+labels: ["support", "question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Need help with the Litra plugin? We're here to assist! Please provide as much detail as possible.
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Question or Issue
+      description: Describe what you need help with.
+      placeholder: What do you need help with?
+    validations:
+      required: true
+
+  - type: textarea
+    id: tried
+    attributes:
+      label: What Have You Tried?
+      description: Describe any steps you've already taken to resolve the issue.
+      placeholder: What have you already tried?
+    validations:
+      required: false
+
+  - type: input
+    id: version
+    attributes:
+      label: Plugin Version
+      description: What version of the Litra plugin are you using?
+      placeholder: e.g., 1.0.0
+    validations:
+      required: false
+
+  - type: input
+    id: foundry-version
+    attributes:
+      label: Foundry VTT Version
+      description: What version of Foundry VTT are you using?
+      placeholder: e.g., 11.315
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Add any other context, screenshots, or information that might help us assist you.
+    validations:
+      required: false
