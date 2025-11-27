@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Litra Plugin Documentation
+    url: https://github.com/kristianserrano/litra-plugin
+    about: Check out the main plugin repository for documentation and source code.
