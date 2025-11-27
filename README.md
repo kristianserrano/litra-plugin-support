@@ -32,10 +32,10 @@ Control your Logitech Litra devices directly with an MX Creative Console or the 
 
 ### Common Actions
 
- - Toggle Litra Power - Individual devices and synced groups with smart device detection
- - Adjust Litra Brightness - Device-specific limits with real-time feedback (20-250 for Glow, 30-400 for Beam/LX)
- - Adjust Litra Temperature - 2700K-6500K color temperature control with dynamic visual feedback
- - Configure Sync Groups - Modern web-based group management with enhanced UX and persistent configurations
+- Toggle Litra Power - Individual devices and synced groups with smart device detection
+- Adjust Litra Brightness - Device-specific limits with real-time feedback (20-250 for Glow, 30-400 for Beam/LX)
+- Adjust Litra Temperature - 2700K-6500K color temperature control with dynamic visual feedback
+- Configure Sync Groups - Modern web-based group management with enhanced UX and persistent configurations
 
 ### Usage Scenarios
 
@@ -54,17 +54,18 @@ Enhance your streaming setup with dynamic lighting control. Adjust lighting inte
 ### Notes
 
 #### Supported Litra Devices
-   - Logitech Litra Glow (USB) - 20-250 lumens brightness range
-   - Logitech Litra Beam (USB/Bluetooth) - 30-400 lumens brightness range
-   - Logitech Litra Beam LX (USB/Bluetooth) - 30-400 lumens brightness range
-   - All devices support color temperature adjustment from 2700K to 6500K.
+
+- Logitech Litra Glow (USB) - 20-250 lumens brightness range
+- Logitech Litra Beam (USB/Bluetooth) - 30-400 lumens brightness range
+- Logitech Litra Beam LX (USB/Bluetooth) - 30-400 lumens brightness range
+- All devices support color temperature adjustment from 2700K to 6500K.
 
 #### Sync Groups
 
-   - Create custom groups to control multiple lights simultaneously with an intuitive web interface. Organize your lighting setup into logical groups like "Studio Setup" or "Desk Lights" with persistent configurations that survive device reconnections and USB port changes.
+- Create custom groups to control multiple lights simultaneously with an intuitive web interface. Organize your lighting setup into logical groups like "Studio Setup" or "Desk Lights" with persistent configurations that survive device reconnections and USB port changes.
    sync groups are designed to be persistent across device reconnections.
-      - On Windows: The plugin creates device profiles with stable identifiers that survive USB port changes, allowing groups to reconnect to the same physical devices.
-      - On macOS: Devices are identified using actual serial numbers, so groups automatically reconnect when the same devices are detected, regardless of USB port changes.
+  - On Windows: The plugin creates device profiles with stable identifiers that survive USB port changes, allowing groups to reconnect to the same physical devices.
+  - On macOS: Devices are identified using actual serial numbers, so groups automatically reconnect when the same devices are detected, regardless of USB port changes.
 
 #### Independent Brightness and Color Temperature Control
 
@@ -81,7 +82,7 @@ The plugin automatically detects connected Litra devices with clear identificati
 #### USB vs Bluetooth Connections
 
 USB connections provide the most reliable control and work even when Logitech G HUB is running. Bluetooth connections are supported but may require closing G HUB for full access.
-   
+
 #### GHUB Conflict Detection
 
 The plugin has built-in detection and warnings when Logitech GHUB conflicts with Bluetooth device access. The plugin automatically identifies when G HUB is running and provides helpful guidance to troubleshoot connectivity issues and optimize your lighting setup.
